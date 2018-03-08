@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             if (location.getLocType() == BDLocation.TypeGpsLocation){
                 currentPosition.append("GPS");
             }else if (location.getLocType() == BDLocation.TypeNetWorkLocation){
-                currentPosition.append("网络");
+                currentPosition.append("网络9");
             }
             positionText.setText(currentPosition);
         }
